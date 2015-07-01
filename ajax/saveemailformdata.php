@@ -33,8 +33,8 @@ $returnArrayLog = new AccessLog("logs/");
 // open connection to host
 $DBhost = "localhost";
 $DBschema = "leah";
-$DBuser = "root";
-$DBpassword = "root";
+$DBuser = "leah";
+$DBpassword = "leah";
 
 //
 // connect to db
