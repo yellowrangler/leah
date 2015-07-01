@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Leah MOS eMail Form</title>
+<meta name="description" content="Leah MOS eMail Form">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+<link href="http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT|PT+Sans|Lusitana|Balthazar|Josefin+Sans" type="text/css" rel="stylesheet" >
+
+<!-- Vendor Libs -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    
+<!-- UI Libs -->
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<!-- App JS libs -->
+<script type="text/javascript">
+$(document).ready( function(){
+    $( "#email-partial" ).load( "partials/emailform.html" );
+}); 
+</script>
+
+</head>
+
+<body style="background:white;">
+
+<div style ="padding-top:35px;" class="container">
+<div class="row">
+    <div class="col-md-6">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">eMail Container</h3>
+      </div>
+      <div class="panel-body">
+        <div id="email-partial"></div>
+      </div>
+    </div>
+
+    </div> <!-- end of col 4 -->
+
+</div> <!-- end of row -->
+</div> <!-- end of container -->
+</body>
+</html>

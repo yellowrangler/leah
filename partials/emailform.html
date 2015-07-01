@@ -1,0 +1,44 @@
+<script type="text/javascript">
+$(document).ready( function(){
+    $("#email-form").submit(function (e) {
+        e.preventDefault();
+
+        var emailformdata = $("#email-form").serialize();
+        
+        alert(emailformdata);
+    });
+}); 
+</script>
+
+<form name="email-form" id="email-form" method="post" action="">
+<div class="form-group">
+    <label for="email-name">Name</label>
+    <input type="text" required class="form-control" id="email-name" name="email-name" placeholder="Your name">
+</div>
+<div class="form-group">
+    <label for="email-address">Email address</label>
+    <input type="email" required class="form-control" id="email-address" name="email-address" placeholder="Email Address">
+</div>
+<div class="form-group">
+    <label for="email-organization">Organization</label>
+    <input type="text" required class="form-control" id="email-organization" name="email-organization" placeholder="Organization">
+</div>
+<div class="form-group">
+    <label for="email-comment">Comment</label>
+    <textarea class="form-control" id="email-comment" name="email-comment" rows="3"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="email-interest">Please select your level of interest:</label>
+    <select id="email-interest" name="email-interest" class="form-control">
+        <option value="0">Select level of interest</option>
+        <option value="1">I’m interested in learning more about COVES on a one-time basis</option>
+        <option value="2">I’m interested in possible becoming a member of COVES</option>
+        <option value="3">I’m interested in subscribing to quarterly email updates</option>
+    </select>
+</div>
+
+<div style="padding-top:25px;" >
+    <button type="submit" id="email-submit" class="btn btn-default">Submit</button>
+</div>
+</form>
