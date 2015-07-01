@@ -3,9 +3,12 @@ $(document).ready( function(){
     $("#email-form").submit(function (e) {
         e.preventDefault();
 
-        var emailformdata = $("#email-form").serialize();
+        var emailformstring = $("#email-form").serializeArray();
+        // var emailformJSON = JSON.stringify(emailformstring);
+
+        saveEmailFormData(emailformstring);
         
-        alert(emailformdata);
+        // alert(emailformdata);
     });
 }); 
 </script>

@@ -1,0 +1,69 @@
+// error log2015-07-01 17:23:52 : DB error: Access denied for user 'leah'@'localhost' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:27:27 : DB error: Access denied for user 'leah'@'localhost' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:29:32 : DB error: Access denied for user 'leah'@'turksandcaicos.home' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:30:16 : DB error: Access denied for user 'leah'@'turksandcaicos.home' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:32:14 : DB error: Access denied for user 'leah'@'localhost' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:33:48 : DB error: Access denied for user 'leah'@'localhost' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:38:37 : DB error: Access denied for user 'leah'@'localhost' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:41:42 : DB error: Access denied for user 'leah'@'localhost' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:49:38 : DB error: Access denied for user 'leah'@'localhost' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:53:30 : DB error: Access denied for user 'leah'@'localhost' (using password: YES) - Error mysql connect. Unable to insert email for Bob Smith and bs@bob.com.
+2015-07-01 17:54:45 : SQL error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name',
+	'email',
+	'organization',
+	'comment',
+	'interestlevel')
+	VALUES
+	(
+		'B' at line 2 - Error doing insert to db unable to insert email collector for Bob Smith and bs@bob.com.
+2015-07-01 17:54:45 : SQL: INSERT INTO emailcollectortbl 
+	('name',
+	'email',
+	'organization',
+	'comment',
+	'interestlevel')
+	VALUES
+	(
+		'Bob Smith',
+		'bs@bob.com',
+		'Smithy',
+		'comments',
+		intval(2)
+	);
+2015-07-01 17:55:20 : SQL error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''name',
+	'email',
+	'organization',
+	'comment',
+	'interestlevel')
+	VALUES
+	(
+		'B' at line 2 - Error doing insert to db unable to insert email collector for Bob Smith and bs@bob.com.
+2015-07-01 17:55:20 : SQL: INSERT INTO emailcollectortbl 
+	('name',
+	'email',
+	'organization',
+	'comment',
+	'interestlevel')
+	VALUES
+	(
+		'Bob Smith',
+		'bs@bob.com',
+		'Smithy',
+		'comments',
+		intval(2)
+	);
+2015-07-01 17:58:23 : SQL error: FUNCTION leah.intval does not exist - Error doing insert to db unable to insert email collector for Bob Smith and bs@bob.com.
+2015-07-01 17:58:23 : SQL: INSERT INTO emailcollectortbl 
+	(name,
+	email,
+	organization,
+	comment,
+	interestlevel)
+	VALUES
+	(
+		'Bob Smith',
+		'bs@bob.com',
+		'Smithy',
+		'comments',
+		intval(2)
+	);
